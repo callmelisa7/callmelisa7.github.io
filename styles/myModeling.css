@@ -37,6 +37,7 @@ header .logo img {
   top: -80px;
 }
 
+
 li:first-child {
   float: left;
 }
@@ -193,13 +194,13 @@ footer {
   }
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 500px) {
   .features {
     display: block;
   }
 
   li {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   section header {
@@ -227,11 +228,20 @@ footer {
     width: 60px;
     background-size: 50px;
   }
+  header .logo img {
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -50px;
+    left: -30px;
+  }
 }
 
 @media screen and (max-width: 600px) {
   li {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   section nav {
